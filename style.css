@@ -1,0 +1,28 @@
+body{
+    background-image:url(https://dcassetcdn.com/design_img/2279099/134956/134956_11974219_2279099_20f0b389_image.jpg);
+}
+h1, h2{
+    color: brown;
+    border: 3px;
+    justify-content: center;
+    display: flex;
+}
+.casa{
+    justify-items: right;
+    display: flex;
+    padding: 5px;
+
+}
+.destaques{
+    display: flex;
+    
+}
+.destaques img{
+    height: 300px;
+    width: 300px;
+}
+.menu i{
+    gap: 5px;
+    
+    
+}
