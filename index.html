@@ -3,27 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="geral.js"></script>
+    <link rel="stylesheet" href="conteudo/css/style.css">
+    <script src="conteudo/javascript/geral.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Restaurante</title>
 </head>
 <body>
-    <h1>Gourmet Cookery</h1>
-    <div id="menu">
-        <li><i class="bi bi-people-fill"></i>Início</li>
-        <li><i class="bi bi-journals"></i>Cardápio</li>
-        <li><i class="bi bi-people-fill"></i>Quem somos </li>
-        <li><i class="bi bi-telephone-fill"></i>Contato</li>
-        <li><i class="bi bi-chat-dots-fill"></i>chat</li>
-    </div>
+    <header class="header">
+            <div class="titulo">
+                <h1>Gourmet Cookery</h1>
+            </div>
+        <nav>
+            <ol class="header-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="paginas/pizzaSalgada.html">Pizzas Salgadas</a></li>
+                <li><a href="paginas/PizzasDoce.html">Pizzas Doces</a></li>
+                <li><a href="paginas/EsfihaSalgadas.html">Esfihas Salgadas</a></li>
+                <li><a href="paginas/EsfihasDoces.html">Esfihas Doces</a></li>
+                <li><a href="paginas/Acai.html">Açais/Sorvetes</a></li>
+            </ol>
+        <nav>
+    </header>
 
-    <h2>Destaques</h2>
-    <div class="destaques">
-        <img src="OIP.jpg" alt=""> 
-        <h3><a href="pizzaSalgada.html">Pizzas salgadas</a></h3>
-        <img src="pizzaDoce.jpg" alt="">
-        <h3><a href="PizzasDoce.html">Pizzas doces</a></h3>
-    </div>
+    <section class="corpo">
+        <h2>Categorias</h2>
+        <div class="destaques">
+            <div class="card1">
+                <img src="imagens/Pizzas_salgadas/pizzaSalgadaCapa.jpg" alt="">
+                <a href="paginas/pizzaSalgada.html">Pizzas salgadas</a>
+            </div>
+            <div class="card1">
+                <img src="imagens/Pizzas_doce/pizzaDoceCapa.jpg" alt="">
+                <a href="paginas/PizzasDoce.html">Pizzas doces</a>
+            </div>
+            <div class="card1">
+                <img src="imagens/Esfihas_salgadas/esfihasCapa.jpg" alt="">
+                <a href="paginas/EsfihaSalgadas.html">Esfihas salgadas</a>
+            </div>
+            <div class="card1">
+                <img src="imagens/Esfihas_doce/EsfihaDoceCapa.jpg" alt="">
+                <a href="paginas/EsfihasDoces.html">esfihas doces</a>
+            </div>
+            <div class="card1">
+                <img src="imagens/Acai/acai.jpg" alt="">
+                <a href="paginas/Acai.html">Açai/Sorvetes</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

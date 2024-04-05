@@ -1,0 +1,162 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-textura-preto-cinza-escuro_333858-30.jpg?w=740);
+}
+h1, h2{
+    color: brown;
+    border: 3px;
+    justify-content: center;
+    display: flex;
+}
+.header{
+    background-color: #ffffffee;
+}
+.titulo{
+    padding: 10px;
+}
+.header-menu{
+    background-color: rgba(158, 7, 7, 0.808);
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #ffffffe8;
+}
+header a:hover, header i:hover{
+    text-shadow: 0 0 5px #ffffff;
+}
+  header li {
+    display: flex;
+    gap: 2px;
+    padding: 5px;
+}
+.corpo h2{
+    color: #ffffff;
+    font-size: xx-large;
+    padding: 20px
+}
+.destaques{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.destaques img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.card1{
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 3px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    gap: 5px;
+}
+.card1 a{
+    color: #ffffffe8;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.card1 p{
+    padding: 1px;
+    display: flex;
+}
+.card1 a:hover{
+    text-shadow: 0 0 5px #ffffff;
+}
+.menu i{
+    gap: 5px;
+}
+.redesSociais{
+    display: grid;
+    gap: 5px;
+    text-align: right;
+}
+.pizzasSalgadas{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-size: x-large; 
+    gap: 20px;
+      
+}
+.pizzasSalgadas img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.pizzasDoces{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: brown;
+    font-size: x-large; 
+    gap: 20px;
+      
+}
+.pizzasDoces img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.esfihasSalgadas{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: brown;
+    font-size: x-large; 
+    gap: 20px;
+}
+.esfihasSalgadas img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.esfihasDoces{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: brown;
+    font-size: x-large; 
+    gap: 20px;  
+}
+.esfihasDoces img{
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.acai{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: brown;
+    font-size: x-large; 
+    gap: 20px;
+    
+}
+.acai img{
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
